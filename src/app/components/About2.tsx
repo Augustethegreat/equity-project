@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 import Link from 'next/link'
 export default function About2() {
   return (
-    <div  className='text-center items-center justify-center flex mx-auto pb-[50px]'>
+    <div  className='text-center items-center justify-center flex mx-auto pb-[50px] text-black'>
     <div  className='text-center items-center justify-center mx-auto'>
         <p className='text-[35px] font-medium text-center py-4'>NOTRE PORTAIL CLIENT</p>
       <div className='flex gap-x-[100px] mt-[20px]'>

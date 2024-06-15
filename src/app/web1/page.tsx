@@ -282,12 +282,12 @@ return(
         <Popover.Button onClick={changearrowabout} className={`font-medium text-[15px] flex outline-none leading-6 text-black border-b-[2px] border-b-white  ${loginOpen ? ' border-b-[#eaeaea] ' : ''}`}>
         À propos
           <ChevronDownIcon
-          style={{display:changeIcon4}}
+          style={{display:changeIcon5}}
             className='h-7 w-7  flex-none  text-[15px] font-bold'
             aria-hidden="true"
           />
           <ChevronUpIcon
-          style={{display:changeIcon5}}
+          style={{display:changeIcon4}}
             className="h-7 w-7 font-bold flex-none "
             aria-hidden="true"
           />

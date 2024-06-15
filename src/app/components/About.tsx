@@ -4,7 +4,7 @@ import Image from 'next/image'
 import {motion} from "framer-motion"
 function About() {
   return (
-    <div  className='text-center items-center justify-center flex mx-auto'>
+    <div  className='text-center items-center justify-center flex mx-auto text-black'>
          <div  className='text-center items-center justify-center mx-auto'>
            <div className='flex gap-x-[150px] mt-[50px]'>
             <motion.div initial={{x: -200, opacity:0}}
