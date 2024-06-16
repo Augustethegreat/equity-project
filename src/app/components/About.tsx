@@ -16,7 +16,7 @@ function About() {
             <motion.div initial={{x: 200, opacity:0}}
                               whileInView={{x:0, opacity:1}}
                         transition={{duration:1.2}}
-                        viewport={{once:true}} className='h-[600px] items-center justify-center mx-auto mt-10 md:px-[100px] px-0 lg:px-0'>
+                        viewport={{once:true}} className='md:h-[600px] h-auto items-center justify-center mx-auto mt-10 md:px-[100px] px-0 lg:px-0'>
               <div className=''>
                 <p className='md:text-[35px] text-[25px] font-medium text-center text-[#a22a2b]'>A PROPOS DE LA DIASPORA BANKING</p>
               <p className='text-[18px]  text-center w-full lg:w-[600px] mt-5 '>Vous êtes congolais vivant à l’étranger ? profitez du service Diaspora Banking.
