@@ -478,16 +478,52 @@ return(
             </div>
            
             </a>
-            <a
-            onClick={aboutroute}
-             href="#about"
-              className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-black hover:bg-[#f2f2f2] hover:text-white"
-            ><div onClick={aboutroute} className="flex gap-x-6 hover:text-white"  >
-               <ChatBubbleBottomCenterTextIcon className="h-7 w-7 text-[#616f8d] mt-0 hover:text-white" aria-hidden="true"/>
-               <p className="text-[#272828] font-medium text-[15px]"> À propos</p>
+            <Popover.Group className="flex lg:gap-x-12">
+      <Popover className="relative">
+        <Popover.Button onClick={change} className="flex gap-x-6 hover:text-white">
+        <BanknotesIcon className="h-7 w-7 text-[#616f8d] mt-0 hover:text-white" aria-hidden="true"/>
+        <p className="text-[#272828] font-medium text-[15px]">À propos</p>
+          <ChevronDownIcon
+          style={{display:changeIcon5}}
+            className='h-7 w-7  flex-none text-[#272828] text-[15px] font-bold'
+            aria-hidden="true"
+          />
+          <ChevronUpIcon
+          style={{display:changeIcon4}}
+            className="h-7 w-7 font-bold flex-none  text-[#272828]"
+            aria-hidden="true"
+          />
+        </Popover.Button>
+
+        <Transition
+          as={Fragment}
+          enter="transition ease-out duration-700"
+          enterFrom="opacity-0 translate-y-1"
+          enterTo="opacity-100 translate-y-0"
+          leave="transition ease-in duration-150"
+          leaveFrom="opacity-100 translate-y-0"
+          leaveTo="opacity-0 translate-y-1"
+        >
+          <Popover.Panel className="absolute ml-10 bg-white  top-full z-10 mt-3 w-[160px]  overflow-hidden hover:cursor-pointer  shadow-lg text-[#646464] ">
+            <div className=" gap-y-3">
+            <div onClick={aboutroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
+              <a href="#crédit" >
+              La Diaspora Banking
+                  </a>
             </div>
+            <div onClick={aboutroute2} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
+              <a href="#crédit" >
+              Notre Portail Client
+                  </a>
+            </div>
+         
+            </div>
+
+          </Popover.Panel>
+        </Transition>
+      </Popover>
+      </Popover.Group>
            
-            </a>
   
           </div>
 
