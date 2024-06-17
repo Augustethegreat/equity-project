@@ -18,6 +18,8 @@ import Creditpage from "../components/Creditpage";
 import {motion} from "framer-motion"
 import "../globals.css"
 import About2 from "../components/About2";
+import { FaInfoCircle } from "react-icons/fa";
+import { MdInfoOutline } from "react-icons/md";
 export default function Page1() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
@@ -40,7 +42,7 @@ export default function Page1() {
   const [aboutpage, setAboutpage] = useState('none');
   const [aboutcolor, setAboutcolor] = useState('black')
   const [aboutpage2, setAboutpage2] = useState('none');
-  const [shadow, setShadow] = useState('')
+  const [shadow, setShadow] = useState('none')
 
   useEffect(() => {
     function HideShadow() {
@@ -399,13 +401,13 @@ return(
             <UserCircleIcon className="h-10 w-10 text-[#a22a2b] mt-4 " aria-hidden="true"/>
             </div>
           <div className="py-2 hover:cursor-pointer" onClick={() => setLoginOpen(true)}>
-            <p className="text-black font-medium text-[15px]">Bonjour !</p>
-            <a
+            <p className="text-black pt-4 font-medium text-[15px]">Mon compte</p>
+            {/* <a
               href="#"
               className="-mx-3 block rounded-lg px-3 py-0 text-base font-medium text-[15px] leading-7 text-[#a22a2b] "
             >
               Login / SignUp
-            </a>
+            </a> */}
           </div>
             </div>
             <a
@@ -457,7 +459,7 @@ return(
             <div className=" gap-y-3">
             <div onClick={creditroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
               <a href="#crédit" >
-                    Crédit
+                    Crédits
                   </a>
             </div>
               {/* <div onClick={depotroute} className="w-full pl-2 py-3 mt-1 text-black hover:text-white hover:bg-[#a22a2b] bg-white">
@@ -493,7 +495,7 @@ return(
             <Popover.Group className="flex lg:gap-x-12">
       <Popover className="relative">
         <Popover.Button onClick={change} className="flex gap-x-6 hover:text-white">
-        <BanknotesIcon className="h-7 w-7 text-[#616f8d] mt-0 hover:text-white" aria-hidden="true"/>
+        <MdInfoOutline className="h-7 w-7 text-[#616f8d] mt-0 hover:text-white" aria-hidden="true"/>
         <p className="text-[#272828] font-medium text-[15px]">À propos</p>
           <ChevronDownIcon
           style={{display:changeIcon5}}
