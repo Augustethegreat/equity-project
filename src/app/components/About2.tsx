@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "../component/img/acc3.jpg"
+import pic from "../component/img/portail.png"
 import Image from 'next/image'
 import {motion} from "framer-motion"
 import Link from 'next/link'
