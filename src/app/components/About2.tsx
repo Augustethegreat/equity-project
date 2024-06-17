@@ -21,7 +21,7 @@ export default function About2() {
                    viewport={{once:true}} className='h-auto lg:h-[600px] items-center justify-center mx-auto mt-0'>
          <div className='mt-[50px] lg:mt-0'>
            <p className='text-[25px] font-medium text-start text-[#a22a2b]'>C’est quoi le Portail Diaspora Banking ?</p>
-         <p className='text-[15px] font-normal text-start px-0 md:px-[140px]  lg:px-0  w-full lg:w-[700px]  mt-1 '>Le portail Diaspora Banking est une plateforme en ligne qui vous permet d’opérer un nombre d’opérations bancaires à distance dans votre confort. C’est l’équivalent d’une agence en ligne 24h/24 où vous pouvez initier des demandes de service à la diaspora Banking.</p>
+         <p className='text-[15px] font-normal text-start px-0 md:px-[140px]  lg:px-0  w-full lg:w-[700px]  mt-1 '>Le portail Diaspora Banking est une plateforme en ligne qui vous permet d'effectuer un nombre d’opérations bancaires à distance dans votre confort. C’est l’équivalent d’une agence en ligne 24h/24 où vous pouvez initier des demandes de service à la diaspora Banking.</p>
          </div>
          <div className='mt-2'>
            <p className='text-[25px] font-medium text-start text-[#a22a2b]'>Quelles opérations y sont disponibles ?</p>
@@ -55,7 +55,7 @@ export default function About2() {
      </div>
      <div className=' mt-10 lg:mt-8'>
      <p className='text-center font-medium text-[27px] md:text-[35px]  '>Comment s’enregistrer ?</p>
-     <p className='text-center px-[20px] md:px-[100px]  lg:px-0'>Pour vous enregistrer,<a className='text-[18px] underline text-[#a22a2b]' href="https://www.equitybcdc-diasporabanking.com/equity-bank-ui/">cliquez sur ce lien Diaspora v2</a>   et suivez les recommandations.</p>
+     <p className='text-center px-[20px] md:px-[100px]  lg:px-0'>Pour vous enregistrer,<a className='underline text-[#a22a2b]' href="https://www.equitybcdc-diasporabanking.com/equity-bank-ui/">cliquez sur ce lien </a>   et suivez les recommandations.</p>
 
      </div>
   </div>
