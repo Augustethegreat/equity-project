@@ -18,7 +18,7 @@ import Questions from './Questions'
 function Aide() {
  
   return (
-    <div  className='scroll-smooth pb-[20px]'>
+    <div  className='scroll-smooth pb-[20px] '>
         <div className='scroll-smooth flex border-b-[1px] border-[#dee3e9] w-full mx-auto items-center text-[13px] md:text-[17px] font-medium'>
             <div className='max-w-screen-lg flex mx-auto items-center  gap-x-5 scroll-smooth'>
             <a href="#sendus">
@@ -31,7 +31,7 @@ function Aide() {
                 <h1 >Contactez-nous</h1>
             </div>
             </a>
-           <a href="#faq">
+           <a href="#faqs">
            <div className={`h-full text-black border-[#fff] hover:border-b-[#a22a2b] hover:text-[#a22a2b] border-[4px] py-4`}>
                 <h1 >FAQS</h1>
             </div>
@@ -77,7 +77,7 @@ function Aide() {
         </div>
         <div id='contact' className='text-black items-center mx-auto w-full px-0 lg:px-[250px] mt-[40px] '>
                     <div  className=' px-4 md:px-0 w-full space-y-3 font-medium'>
-                        <p className='text-[20px] '>Contactez-Nous :</p>
+                        <p className='text-[25px] text-center'>Contactez-Nous :</p>
                     <p className='w-auto lg:w-[532px]'>Connectez-vous avec l'un de nos agents pour obtenir de l'aide en appelant le + 243 81 180 8868 ou envoyez-nous un courriel sur       <span className='text-[#a22a2b] underline-[1px]'>diaspora@equitybcdc.com</span></p>
                     <p>Nos horaires d'ouverture sont les suivants :</p>
                     <div className='flex '>
@@ -89,7 +89,7 @@ function Aide() {
                     </div>
                     </div>
         </div>
-        <p  className='text-black text-2xl font-medium text-center mt-[65px] '>Foire Aux Questions</p>
+        <p  className='text-black text-[25px] font-medium text-center mt-[65px] ' id='faqs'>Foire Aux Questions</p>
         {/* <div id='faq' className='md:flex lg:block w-full  pb-[70px] mt-[34px] md:w-full md:px-[200px] md:gap-x-5 lg:px-[60px] items-center mx-auto'>
         <div className='md:block lg:flex gap-x-3   md:gap-x-6 lg:gap-x-7 px-4 '>
             <div className=' flex  bg-[#fff] mt-7  md:mt-7 lg:mt-0 w-full  md:w-[280px] hover:bg-[#a22a2b] text-[#a22a2b] hover:text-white border-[1px] border-[#a22a2b] hover:cursor-pointer   lg:w-[800px] h-auto lg:h-auto py-2 md:h-auto justify-center my-auto items-center rounded-[5px] md:rounded-[5px] lg:rounded-[5px] '>
