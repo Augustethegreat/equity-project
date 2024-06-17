@@ -31,10 +31,10 @@ const[ans7, setAns7] = useState(false);
 
 
   return (
-    <div className='text-black px-5 lg:px-[150px] mt-6 flex items-center justify-center mx-auto pb-[220px]'>
-        <div className='space-y-5'>
+    <div className='text-black px-5 lg:px-[150px] mt-4 flex items-center justify-center mx-auto pb-[220px]'>
+        <div className='space-y-5 shadow-xl p-6 rounded-[15px]'>
         <div className=''>
-            <p className='font-semibold text-[20px]'>Nos comptes </p>
+            <p className='font-semibold text-[20px] text-[#a22a2b]'>Nos comptes </p>
             <Popover.Group className="flex lg:gap-x-12 ">
           <Popover className="relative">
             <Popover.Button  className="flex outline-none mt-3 lg:mt-0 items-center text-start gap-x-4 text-[15px] font-normal   text-[#000] border-none hover:border-none">
@@ -113,7 +113,7 @@ const[ans7, setAns7] = useState(false);
         </div>
 
         <div>
-        <p className='font-semibold text-[20px]'>Nos cartes bancaires </p>
+        <p className='font-semibold text-[20px] text-[#a22a2b]'>Nos cartes bancaires </p>
         <Popover.Group className="flex lg:gap-x-12 ">
           <Popover className="relative">
             <Popover.Button  className="flex outline-none mt-3 lg:mt-0 items-center text-start gap-x-4 text-[15px] font-normal   text-[#000] border-none hover:border-none">
@@ -152,7 +152,7 @@ const[ans7, setAns7] = useState(false);
 
 
         <div>
-        <p className='font-semibold text-[20px]'>Nos procédures (Nos agences)</p>
+        <p className='font-semibold text-[20px] text-[#a22a2b]'>Nos procédures (Nos agences)</p>
         <Popover.Group className="flex lg:gap-x-12 ">
           <Popover className="relative">
             <Popover.Button  className="flex outline-none mt-3 lg:mt-0 items-center text-start gap-x-4 text-[15px] font-normal   text-[#000] border-none hover:border-none">
@@ -231,7 +231,7 @@ const[ans7, setAns7] = useState(false);
         </div>
 
         <div>
-        <p className='font-semibold text-[20px]'>Méthodes de livraison </p>
+        <p className='font-semibold text-[20px] text-[#a22a2b]'>Méthodes de livraison </p>
         <Popover.Group className="flex lg:gap-x-12 ">
           <Popover className="relative">
             <Popover.Button  className="flex outline-none mt-3 lg:mt-0 items-center text-start gap-x-4 text-[15px] font-normal   text-[#000] border-none hover:border-none">

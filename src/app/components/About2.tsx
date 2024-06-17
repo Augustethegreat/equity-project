@@ -47,7 +47,7 @@ export default function About2() {
          </div>
          <div className='mt-2'>
            <p className='text-[20px] font-medium text-start text-[#a22a2b]'>- Les demandes de Prêts IMMO</p>
-         <p className='text-[15px] font-normal text-start px-0 md:px-[140px]  lg:px-0  w-full lg:w-[700px]  mt-1 '>Si vous désirez un accompagnement de prêts IMMO et que vous êtes prêts à vous engager, vous vous pouvez aussi vous enregistrer et soumettre votre demande de prêt.</p>
+         <p className='text-[15px] font-normal text-start px-0 md:px-[140px]  lg:px-0  w-full lg:w-[700px]  mt-1 '>Si vous désirez un accompagnement de prêts IMMO et que vous êtes prêts à vous engager, vous pouvez aussi vous enregistrer et soumettre votre demande de prêt.</p>
          </div>
         
        </motion.div>

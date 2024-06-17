@@ -189,8 +189,8 @@ export default function Page() {
              <div className="py-2 px-2 hover:bg-[#f3f3f3]">
              <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button onClick={changes} className="flex outline-none items-center gap-x-4 text-[15px] font-bold   text-[#a22a2b] border-none hover:border-none">
-              {lang}
+            <Popover.Button  className="flex outline-none items-center gap-x-4 text-[15px] font-bold   text-[#a22a2b] border-none hover:border-none"> {/* onClick={changes} */}
+              {/* {lang} */} FR
               <ChevronDownIcon
               style={{display:changeIcon1}}
                 className='h-7 w-7  flex-none text-[#a22a2b] text-[15px] font-bold'
@@ -215,7 +215,7 @@ export default function Page() {
               <Popover.Panel className="absolute bg-white  top-full z-10 mt-3 w-[160px]  overflow-hidden hover:cursor-pointer  shadow-lg text-[#646464] ">
                 <div className=" gap-y-3">
                 
-                  <div className="w-full pl-2 py-3 mt-1 hover:bg-[#ececec]" onClick={langchange}><a  href="">{lang1}</a></div>
+                  <div className="w-full pl-2 py-3 mt-1 hover:bg-[#ececec]" ><a  href="">EN</a></div> {/*onClick={langchange}*/}
                   
                 </div>
 

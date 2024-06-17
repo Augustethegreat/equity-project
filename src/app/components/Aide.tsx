@@ -89,7 +89,7 @@ function Aide() {
                     </div>
                     </div>
         </div>
-        <p  className='text-black text-2xl font-medium text-center mt-[65px] '>Questions Couramment Posées</p>
+        <p  className='text-black text-2xl font-medium text-center mt-[65px] '>Foire Aux Questions</p>
         {/* <div id='faq' className='md:flex lg:block w-full  pb-[70px] mt-[34px] md:w-full md:px-[200px] md:gap-x-5 lg:px-[60px] items-center mx-auto'>
         <div className='md:block lg:flex gap-x-3   md:gap-x-6 lg:gap-x-7 px-4 '>
             <div className=' flex  bg-[#fff] mt-7  md:mt-7 lg:mt-0 w-full  md:w-[280px] hover:bg-[#a22a2b] text-[#a22a2b] hover:text-white border-[1px] border-[#a22a2b] hover:cursor-pointer   lg:w-[800px] h-auto lg:h-auto py-2 md:h-auto justify-center my-auto items-center rounded-[5px] md:rounded-[5px] lg:rounded-[5px] '>
