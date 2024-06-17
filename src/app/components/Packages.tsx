@@ -325,7 +325,7 @@ function Packages() {
           </div>
        </div>
        <div style={{display:produitpage}} className='text-center items-center justify-center mx-auto'>
-          <div className='mt-[20px] pb-[100px]'>
+          <div className='mt-[50px] md:mt-[10px] pb-[20px]'>
           {/* <p className='text-[40px] text-[#959595] font-bold '>#Produits digitaux</p> */}
           <Produits/>
           </div>

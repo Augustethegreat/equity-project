@@ -11,7 +11,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Mastercard prépayée</p>
-                <p className='text-[20px] font-semibold'>Cartes prépayées</p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes prépayées</p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix : 10 USD +TVA</p>
                     <p>- Très flexible pour les transactions internet</p>
@@ -33,7 +33,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Mastercard Crédit </p>
-                <p className='text-[20px] font-semibold'>Cartes de crédit</p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes de crédit</p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix de la carte : 50 USD + TVA</p>
                     <p>- Client cible : Client entrepreneur </p>
@@ -52,7 +52,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Mastercard Débit Standard </p>
-                <p className='text-[20px] font-semibold'>Cartes internationales</p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes internationales</p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix de la carte : 30 USD + TVA</p>
                     <p>- Limite journalière : retrait 2500 USD et Paiement/Achat en ligne : 3500 USD</p>
@@ -73,7 +73,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Visa Classique </p>
-                <p className='text-[20px] font-semibold'>Cartes internationales</p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes internationales</p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix de la carte : 30 USD + TVA</p>
                     <p>- Limite journalière : retrait 2500 USD et Paiement/Achat en ligne : 3500 USD</p>
@@ -91,7 +91,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Visa Gold</p>
-                <p className='text-[20px] font-semibold'>Cartes Prestiges  </p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes Prestiges  </p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix: 75 USD +TVA</p>
                     <p>- Flexible pour les transactions en ligne</p>
@@ -111,7 +111,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Visa Platinum</p>
-                <p className='text-[20px] font-semibold'>Cartes Prestiges</p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes Prestiges</p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix : 150 USD + TVA</p>
                     <p>- Cible: segment fortuné, revenus élevés, voyage fréquemment, dépenses modérées </p>
@@ -139,7 +139,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Visa Infinite </p>
-                <p className='text-[20px] font-semibold'>Cartes Prestiges</p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes Prestiges</p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Prix : 300 USD + TVA</p>
                     <p>- Limite journalière retrait 5000 USD et paiement 7500USD</p>
@@ -164,7 +164,7 @@ export default function CarteBancaire() {
             <div className='text-[#000]'>
                 
                 <p className='text-[25px] font-semibold w-full py-3 text-white bg-[#a22a2b] rounded-t-[10px]'>Mastercard World Elite</p>
-                <p className='text-[20px] font-semibold'>Cartes Prestiges  </p> 
+                <p className='text-[20px] font-semibold text-[#636569]'>Cartes Prestiges  </p> 
                 <div className='text-start font-light px-2 w-full lg:w-[350px] h-[180px]'>
                     <p>- Frais de commande : : 350 USD + TVA</p>
                     <p>- Prix annuel : 350 USD + TVA</p>
