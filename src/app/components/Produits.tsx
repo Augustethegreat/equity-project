@@ -44,7 +44,7 @@ function product3() {
         <div className='shadow-xl  rounded-[15px] w-full lg:w-[380px]'>
             <div className=''>
             <p className='text-center  border-[#a22a2b] rounded-t-[15px] bg-[#a22a2b] py-3 font-medium text-white text-[25px]'>PACK EPARGNE DIASPORA</p>
-            <p className='text-center text-[20px] py-2 border-b-[2px] text-[#636569] font-semibold'>Contient Un Compte Epargne Diaspora</p>
+            <p className='text-center text-[20px] py-2 border-b-[2px] text-[#636569] font-semibold'>Contient un compte epargne diaspora</p>
             <div className='text-[14px] font-normal text-start px-2 space-y-4 py-2 h-auto lg:h-[200px]' >
                 <p>•	Dépôt initial minimum : 100 USD ou équivalent </p>
                 <p>•	Toujour rémunéré au taux en vigueur au sein de Equity Bank Congo </p>
@@ -64,7 +64,7 @@ function product3() {
         <div className='shadow-xl rounded-[15px] w-full lg:w-[380px]'>
             <div className=''>
             <p className='text-center  border-[#a22a2b] rounded-t-[15px] bg-[#a22a2b] py-3 font-medium text-white text-[25px]'>PACK CLASSIC DIASPORA</p>
-            <p className='text-center text-[20px] py-2 border-b-[2px] text-[#636569] font-semibold'>Contient Un Compte Courant Diaspora</p>
+            <p className='text-center text-[20px] py-2 border-b-[2px] text-[#636569] font-semibold'>Contient un compte courant diaspora</p>
             <div className='text-[14px] font-normal text-start px-2 space-y-4 py-2 h-auto lg:h-[200px]'>
                 <p>•	Dépôt initial minimum : 100 USD ou équivalent </p>
                 <p>•	Frais services digitaux : 1 USD/Euro + TVA ou équivalent en CDF par mois </p>
@@ -92,7 +92,7 @@ function product3() {
         <div className='shadow-xl rounded-[15px] w-full lg:w-[380px]'>
             <div className=''>
             <p className='text-center  border-[#a22a2b] rounded-t-[15px] bg-[#a22a2b] py-3 font-medium text-white text-[25px]'>PACK GOLD DIASPORA</p>
-            <p className='text-center text-[20px] py-2 border-b-[2px] text-[#636569] font-semibold'>Contient Un Compte Courant Diaspora</p>
+            <p className='text-center text-[20px] py-2 border-b-[2px] text-[#636569] font-semibold'>Contient un compte courant diaspora</p>
             <div className='text-[14px] font-normal text-start px-2 space-y-4 py-2 h-auto lg:h-[200px]'>
                 <p>•	Dépôt initial minimum : 100 USD ou équivalent </p>
                 <p>•	Frais services digitaux : 1 USD/Euro + TVA ou équivalent en CDF par mois </p>
