@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Footers from "../components/footer";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import { Bars3Icon, XMarkIcon, EnvelopeIcon, ChatBubbleBottomCenterTextIcon,QuestionMarkCircleIcon, UserCircleIcon, CreditCardIcon, BanknotesIcon, WalletIcon, RectangleGroupIcon } from "@heroicons/react/24/outline";
 import {ChatBubbleLeftIcon,ChevronDownIcon,ChevronUpIcon,HomeIcon,PaperAirplaneIcon,PhoneIcon,PlayCircleIcon} from "@heroicons/react/20/solid";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
@@ -40,9 +40,20 @@ export default function Page1() {
   const [aboutpage, setAboutpage] = useState('none');
   const [aboutcolor, setAboutcolor] = useState('black')
   const [aboutpage2, setAboutpage2] = useState('none');
+  const [shadow, setShadow] = useState('')
 
+  useEffect(() => {
+    function HideShadow() {
+      if (loginOpen) {
+        setShadow('');
+      } else {
+        setShadow('none');
+      }
+    }
 
-  
+    HideShadow();
+  }, [loginOpen]);
+
   function packroute() {
     setCreditpage('none')
     setHelppage('none')
@@ -194,6 +205,7 @@ function changearrowabout() {
     setChangeIcon5("block")
   }
 }
+
 
 return(
     <div>
@@ -566,27 +578,27 @@ return(
         </div>
       <div className="block md:flex lg:flex mt-4  gap-x-1 lg:w-[300px]">
         <div className="mt-4 shadow-lg pl-2 border-gray-300 md:pt-8 lg:pt-8 pr-12 pb-5 border-t-[2px] border-t-[#f6f6f6]">
-          <p className="text-black text-2xl">Sign in</p>
+          <p className="text-black text-2xl">Se connecter</p>
           <div className="block mt-3 ">
           <div >
-          <input type="text" placeholder="E-mail address" className="text-[#1c1c1c] font-light border-[1px] px-3 py-2 w-full md:w-[360px] lg:w-[360px] mt-2  rounded-[7px]" />
+          <input type="text" placeholder="Adresse Email" className="text-[#1c1c1c] font-light border-[1px] px-3 py-2 w-full md:w-[360px] lg:w-[360px] mt-2  rounded-[7px]" />
           </div>
           <div>
-          <input type="text" placeholder="Password" className="text-[#1c1c1c] font-light border-[1px] px-3 py-2 w-full  md:w-[360px] lg:w-[360px]  rounded-[7px] mt-2"  />
+          <input type="text" placeholder="Mot de passe" className="text-[#1c1c1c] font-light border-[1px] px-3 py-2 w-full  md:w-[360px] lg:w-[360px]  rounded-[7px] mt-2"  />
           </div>
-          <button className='bg-[#a22a2b] hover:bg-[#d73611] mt-3 w-full  h-[40px] md:w-[190px] md:h-[40px]  rounded-3xl text-sm text-white font-extrabold'>Login</button>
-          <p className="text-black hover:text-[#a22a2b]  text-[16px] font-bold">Forgot your password?</p>
+          <button className='bg-[#a22a2b] hover:bg-[#d73611] mt-3 w-full  h-[40px] md:w-[190px] md:h-[40px]  rounded-3xl text-sm text-white font-extrabold'>Connectez-vous</button>
+          <p className="text-black hover:text-[#a22a2b]  text-[16px] font-bold">Mot de passe oublié ?</p>
           </div>
         </div>
      
         <div className="mt-4 shadow-lg lg:w-[800px] border-gray-300 md:pl-[90px] md:pr-0 lg:pl-[90px] lg:pr-[50px] pb-5 pt-8 border-t-[2px] border-t-[#f6f6f6]">
-          <p className="text-black text-2xl">New User ?</p>
+          <p className="text-black text-2xl">Nouvel utilisateur ?</p>
 
           <a href="https://www.equitybcdc-diasporabanking.com/equity-bank-ui/register">
-          <button className='bg-[#a22a2b]  hover:bg-[#d73611] mt-3 w-full px-3  h-[40px] md:w-[290px] md:h-[40px]  rounded-3xl text-sm text-white font-extrabold'>Register</button>
+          <button className='bg-[#a22a2b]  hover:bg-[#d73611] mt-3 w-full px-3  h-[40px] md:w-[290px] md:h-[40px]  rounded-3xl text-sm text-white font-extrabold'>Inscrivez-vous</button>
           
           </a>
-          <p className="text-black hover:text-[#a22a2b]  text-[11px] font-bold">Site Guide</p>
+          <p className="text-black hover:text-[#a22a2b]  text-[11px] font-bold">Guide du site</p>
           
         </div>
             
@@ -628,6 +640,9 @@ return(
   </div>
   <div style={{display:aboutpage2}}>
     <About2/>
+  </div>
+  <div style={{display:shadow}} className="w-full h-[4000px] mt-[-2000px] bg-[#000] opacity-40 ">
+
   </div>
   <div className="mt-[30px]">
     <Footers/>

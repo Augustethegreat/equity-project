@@ -152,7 +152,7 @@ const[ans7, setAns7] = useState(false);
 
 
         <div>
-        <p className='font-semibold text-[20px] text-[#a22a2b]'>Nos procédures (Nos agences)</p>
+        <p className='font-semibold text-[20px] text-[#a22a2b]'>Nos procédures</p>
         <Popover.Group className="flex lg:gap-x-12 ">
           <Popover className="relative">
             <Popover.Button  className="flex outline-none mt-3 lg:mt-0 items-center text-start gap-x-4 text-[15px] font-normal   text-[#000] border-none hover:border-none">
