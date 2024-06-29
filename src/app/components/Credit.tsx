@@ -122,6 +122,7 @@ function Credit() {
                 <p className='ml-4 md:ml-0 w-auto md:w-[290px]  '>Durée de paiement</p>
                 <div className='flex'>
                     <p className='text-white'>U</p>
+                    <p  className='text-white md:hidden block '>SD</p>
                 <select id="dropdownTextbox" className='border-[2px] border-[#a22a2b] outline-[#a22a2b] w-[84%] md:w-[185px] py-2 mt-[0px] md:mt-[-9px]  rounded-[5px] pr-2' onChange={(event) => {
                             const inputval1 = event.target.value;
                             const num1 = parseFloat(inputval1)
@@ -178,11 +179,16 @@ function Credit() {
                 </div>
 
                </div>
-               <div className='mt-[15px]' onClick={simulpage}>
+               {/* <div className='mt-[15px]' onClick={simulpage}>
           
                 <button className='border-[#a22a2b] border-[2px] md:hover:bg-[#a22a2b] hover:bg-[#d73611] md:bg-white bg-[#a22a2b] shadow-lg md:hover:text-white py-2 px-5 text-white md:text-black text-[14px] w-full rounded-[5px] font-semibold'>DEMANDER UNE PRE-EVALUATION</button>
         
-               </div>
+               </div> */}
+                <div className='mt-[15px]'>
+          
+          <button className='border-[#a22a2b] border-[2px] md:hover:bg-[#a22a2b] hover:bg-[#d73611] md:bg-white bg-[#a22a2b] shadow-lg md:hover:text-white py-2 px-5 text-white md:text-black text-[14px] w-full rounded-[5px] font-semibold'>DEMANDER UNE PRE-EVALUATION</button>
+  
+         </div>
               </div>
              </div>
              
